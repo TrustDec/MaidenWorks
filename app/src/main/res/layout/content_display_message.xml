@@ -7,10 +7,12 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.trusttheboy.DisplayMessageActivity"
     tools:showIn="@layout/activity_display_message">
-    <EditText android:id="@+id/edit_message"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:hint="@string/edit_message" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="62dp" />
 </android.support.constraint.ConstraintLayout>
