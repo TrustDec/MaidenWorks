@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MaidenWorks</string>
+    <string name="action_settings">设置</string>
+    <string name="edit_message">输入消息</string>
+    <string name="button_send">发送</string>
+    <string name="title_activity_display_message">My Message</string>
+</resources>
